@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:context=".home">
+
+
+    <RelativeLayout
+        android:id="@+id/layoutHeader"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@color/purple_700"
+        android:padding="25dp">
+        <TextView
+            android:id="@+id/helloText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:text="Welcome"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/subject23"
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="130dp"
+            android:text="Subject list"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/helloText"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <HorizontalScrollView
+            android:layout_width="482dp"
+            android:layout_height="241dp"
+            android:layout_marginTop="185dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/mathbutton2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/layoutcolor4"
+                    android:text="Solve \n Maths"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/white">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/chemitrybutton2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/layoutcolor4"
+                    android:text="Start\n Chem"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/white">
+                </Button>
+                <Button
+                    android:id="@+id/physicsbutton2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/layoutcolor4"
+                    android:text="Start\n Physics"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/white">
+                </Button>
+                <Button
+                    android:id="@+id/biologybutton2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/layoutcolor4"
+                    android:text="Start\n Biology"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/white">
+                </Button>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="495dp" >
+        <Button
+            android:id="@+id/videoButton"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/layoutcolor"
+            android:gravity="center"
+            android:text="Watch Videos"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:textStyle="bold">
+        </Button>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
