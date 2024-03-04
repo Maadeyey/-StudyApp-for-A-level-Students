@@ -22,15 +22,7 @@ The Free Educational Resources for A-level Students is a Java application design
   
 - **YouTube Player API:** YouTube Player API integration for playing YouTube videos directly within the app.
 
-## Installation:
 
-To use the Free Educational Resources for A-level Students app, follow these steps:
-
-1. Download the application executable file from the provided source.
-  
-2. Install Java Runtime Environment (JRE) on your computer if not already installed.
-
-3. Run the executable file to launch the application.
 
 ### Usage
 To utilize the Basketball Training Android App:
