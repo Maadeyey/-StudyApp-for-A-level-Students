@@ -32,17 +32,12 @@ To use the Free Educational Resources for A-level Students app, follow these ste
 
 3. Run the executable file to launch the application.
 
-## Usage:
-
-- Upon launching the application, users are presented with a home screen displaying available educational resources.
-  
-- Users can navigate through the app to access different categories of resources such as Mathematics, Science, Literature, etc.
-
-- To view a PDF document, users can select the desired resource, and it will be displayed using the integrated PDF Viewer.
-
-- To watch a YouTube video, users can select the video from the list, and it will be played within the app using the integrated YouTube Player.
-
-- Users can also download resources for offline access by accessing the download option available within the app.
+### Usage
+To utilize the Basketball Training Android App:
+1. Download the entire app project from the provided source.
+2. Open the project in Android Studio or your preferred integrated development environment (IDE).
+3. Set up an Android simulator (emulator) on your development environment if you don't have a physical Android device available.
+4. Build and run the app project in the Android simulator to view and interact with the app's features and content
 
 ## Credits:
 
